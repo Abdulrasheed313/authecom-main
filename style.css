@@ -1,0 +1,24 @@
+:root {
+  --bg: #000;      /* Page background black */
+  --fg: #fff;      /* Text color white */
+  --muted: #aaa;   /* Muted text gray */
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  border-radius: 10px;
+  background-color: #111; /* Card background slightly lighter than body */
+  color: var(--fg);
+  padding: 15px;
+  margin: 10px 0;
+}
+
+.small-muted {
+  color: var(--muted);
+}
